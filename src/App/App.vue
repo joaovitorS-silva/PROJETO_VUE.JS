@@ -1,6 +1,5 @@
-<script setup lang="js">
-</script>
+<script setup lang="js"></script>
 
 <template>
-<h1>projeto dos boys</h1>
+  <RouterView/>
 </template>
