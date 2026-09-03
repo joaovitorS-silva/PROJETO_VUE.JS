@@ -1,5 +1,13 @@
 <script setup lang="js">
 import { Wallet, Gamepad2 } from "lucide-vue-next";
+import { useRouter } from "vue-router";
+
+const router = useRouter()
+
+function IrParaPerfil(){
+  router.push("/perfil")
+
+}
 </script>
 
 <template>
@@ -31,9 +39,8 @@ import { Wallet, Gamepad2 } from "lucide-vue-next";
     >
       notificação
     </button>
-    <button
-      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
-    >
+    <button @click="IrParaPerfil"
+      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] cursor-pointer">
       perfil
     </button>
   </div>
