@@ -4,9 +4,9 @@ import Aside from "../components/Aside.vue";
 </script>
 
 <template>
-  <div class="min-h-screen bg-fundo-secundario">
+  <div class="flex min-h-screen flex-col bg-fundo-secundario">
     <Topbar />
-    <section class="flex min-h-screen pt-24">
+    <section class="flex min-h-0 flex-1">
       <Aside/>
       <main class="flex flex-1 min-w-0 items-center justify-center">
         <RouterView />
