@@ -1,5 +1,9 @@
+<script setup lang="js">
+import Card from "../../../shared/components/Card.vue";
+</script>
+
 <template>
-    <div>
-        <h1 class="text-5xl">home PAGE</h1>
-    </div>
+  <div>
+    <Card />
+  </div>
 </template>
