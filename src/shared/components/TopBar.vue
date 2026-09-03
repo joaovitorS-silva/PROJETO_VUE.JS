@@ -3,12 +3,8 @@ import { Wallet, Gamepad2 } from "lucide-vue-next";
 </script>
 
 <template>
-  <div class="mt-0 gap-10 py-5 flex bg-cards-destacados text-white">
-    <input
-      type="text"
-      class="bg-fundo-secundario rounded-xl"
-      placeholder="Search"
-    />
+  <div class="mt-0 gap-10 py-5 flex bg-fundo-principal w-screen fixed text-white">
+   
     <button
       class="ml-auto flex gap-2 bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
     >
@@ -23,7 +19,7 @@ import { Wallet, Gamepad2 } from "lucide-vue-next";
     <button
       class="flex gap-2 bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
     >
-       msg
+      msg
     </button>
     <button
       class="flex gap-2 bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-fundo-principal: #0B0B10;
-  --color-fundo-secundario: #111118;
+  --color-fundo-principal: #222035;
+  --color-fundo-secundario: #181B24;
   --color-cards: #181820;
   --color-cards-destacados: #20202A;
   --color-hover-card: #282834;
