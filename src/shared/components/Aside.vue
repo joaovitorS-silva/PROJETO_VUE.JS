@@ -8,40 +8,40 @@ import { Wallet } from "lucide-vue-next";
   >
     <div class="flex mt-4 items-center gap-4 flex-col">
       <button
-        class="text-white hover:bg-buttonPrincipal rounded-md p-3 hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
 
       <button
-        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
       <hr class="text-black h-2 w-full" />
 
       <button
-        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
       <button
-        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
       <button
-        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
       <button
-        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
       <button
-        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3"
+        class="text-white hover:bg-buttonPrincipal hover:shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] rounded-md p-3 transition-transform duration-300 ease-in-out hover:scale-110"
       >
         <Wallet />
       </button>
