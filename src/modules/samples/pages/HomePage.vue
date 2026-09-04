@@ -1,9 +1,13 @@
 <script setup lang="js">
-import Card from "../../../shared/components/Card.vue";
+import BroseCategorias from "../../../shared/components/BroseCategorias.vue";
+import Trending from "../../../shared/components/Trending.vue";
 </script>
 
 <template>
-  <div>
-    <Card />
-  </div>
+  <article class="flex flex-wrap gap-10 ">
+    <Trending />
+    <div>
+      <BroseCategorias />
+    </div>
+  </article>
 </template>
