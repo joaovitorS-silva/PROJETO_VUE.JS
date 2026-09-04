@@ -8,7 +8,7 @@ import Aside from "../components/Aside.vue";
     <Topbar />
     <section class="flex min-h-0 flex-1">
       <Aside/>
-      <main class="flex flex-1 min-w-0 items-center justify-center">
+      <main class="ml-4">
         <RouterView />
       </main>
     </section>

@@ -1,12 +1,11 @@
 <script setup lang="js">
-import { Wallet, Gamepad2 } from "lucide-vue-next";
+import { Search, Wallet, Gamepad2 } from "lucide-vue-next";
 import { useRouter } from "vue-router";
 
-const router = useRouter()
+const router = useRouter();
 
-function IrParaPerfil(){
-  router.push("/perfil")
-
+function IrParaPerfil() {
+  router.push("perfil");
 }
 </script>
 
@@ -17,7 +16,16 @@ function IrParaPerfil(){
       src="https://imgs.search.brave.com/VJNH2i52ous-w8yWHFx-YUp0wBLrJvnftTw3CxAlDQE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9hby1jb250/cm9sZS1pY29uLXN2/Zy1kb3dubG9hZC1w/bmctMTIyODc2My5w/bmc_Zj13ZWJwJnc9/MTI4"
       alt="dasdasdas"
     />
-    <input type="text" placeholder="SEARCH" class="bg-fundo-secundario rounded-2xl p-2" />
+
+    <div class="relative">
+      <Search class="absolute left-2 bottom-3 cursor-pointer"
+      size="24px"/>
+      <input
+        type="text"
+        placeholder="SEARCH"
+        class="bg-fundo-secundario rounded-2xl p-3 pl-9"
+      />
+    </div>
     <button
       class="ml-auto flex gap-2 bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
     >
@@ -39,8 +47,10 @@ function IrParaPerfil(){
     >
       notificação
     </button>
-    <button @click="IrParaPerfil"
-      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] cursor-pointer">
+    <button
+      @click="IrParaPerfil"
+      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] cursor-pointer"
+    >
       perfil
     </button>
   </div>
