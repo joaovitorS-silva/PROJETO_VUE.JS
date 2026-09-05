@@ -25,7 +25,8 @@ import Navigation from "./NavigationTop.vue";
       <Navigation label="pessoas" to="a denifir" />
       <Navigation label="msg" to="/a definmir" />
       <Navigation label="notificação" to="/A definir" />
-      <Navigation label="Perfil" to="/perfil" />
+        <Navigation label="Perfil" to="/perfil" />
+      
     </section>
   </div>
 </template>
