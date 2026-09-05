@@ -1,12 +1,7 @@
 <script setup lang="js">
 import { Search, Wallet, Gamepad2 } from "lucide-vue-next";
-import { useRouter } from "vue-router";
 
-const router = useRouter();
-
-function IrParaPerfil() {
-  router.push("perfil");
-}
+import Navigation from "./NavigationTop.vue";
 </script>
 
 <template>
@@ -18,40 +13,19 @@ function IrParaPerfil() {
     />
 
     <div class="relative">
-      <Search class="absolute left-2 bottom-3 cursor-pointer"
-      size="24px"/>
+      <Search class="absolute left-2 bottom-3 cursor-pointer" size="24px" />
       <input
         type="text"
         placeholder="SEARCH"
         class="bg-fundo-secundario rounded-2xl p-3 pl-9"
       />
     </div>
-    <button
-      class="ml-auto flex gap-2 bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
-    >
-      <Wallet />
-      5,49 USD
-    </button>
-    <button
-      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
-    >
-      pessoas
-    </button>
-    <button
-      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
-    >
-      msg
-    </button>
-    <button
-      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
-    >
-      notificação
-    </button>
-    <button
-      @click="IrParaPerfil"
-      class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080] cursor-pointer"
-    >
-      perfil
-    </button>
+    <section class="flex ml-auto gap-12">
+      <Navigation :icon="Wallet" label="5,49USD" to="definir rota" />
+      <Navigation label="pessoas" to="a denifir" />
+      <Navigation label="msg" to="/a definmir" />
+      <Navigation label="notificação" to="/A definir" />
+      <Navigation label="Perfil" to="/perfil" />
+    </section>
   </div>
 </template>
