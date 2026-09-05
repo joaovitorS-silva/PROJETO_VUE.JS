@@ -3,7 +3,7 @@ import { ChevronRight } from "lucide-vue-next";
 </script>
 
 <template>
-  <article class="flex  mr-auto">
+  <article class="flex mr-auto">
     <div
       class="flex w-full flex-col items-start gap-3 rounded-xl bg-fundo-principal p-4 shadow-[0_15px_15px_#CCFF00]"
     >
