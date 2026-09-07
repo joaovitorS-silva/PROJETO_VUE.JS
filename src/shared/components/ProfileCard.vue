@@ -26,7 +26,7 @@
 </style>
 
 <template>
-    <article id="rgb" class="mt-20 ml-20 flex h-[450px] w-[80rem] flex-col rounded-3xl bg-fundo-principal shadow-[0_0_3px_red,0_0_10px_red]">
+    <article id="rgb" class="mt-20 ml-20 flex h-[450px] w-[80rem] flex-col rounded-3xl bg-fundo-principal shadow-[0_0_3px_red,0_0_10px_red] items-center">
         <div class="relative flex h-full w-full flex-col items-center">
                 <div class="relative h-full w-full overflow-hidden rounded-3xl">
                     <img class="block h-full w-full object-cover" src="/src/App/assets/imagem_teste.webp" alt="Banner">
@@ -34,8 +34,18 @@
                 </div>
             <img class="absolute bottom-0 z-10 h-30 w-30 translate-y-1/2 rounded-full border-4 border-fundo-principal object-cover" src="/src/App/assets/teste_avatar.webp" alt="User Avatar">
         </div>
+
+        <h1 class="text-5xl font-mono mt-20 text-white" >WishList</h1>
     </article>
-    <article id="rgb" class="mb-15 mt-25 ml-20 h-[450px] w-[80rem] rounded-3xl">
-        <h1 class="text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magni unde voluptate obcaecati tempora delectus quidem, dicta, reiciendis repellendus ea, commodi ut aut accusamus eveniet fuga. Nesciunt, eos quos. Dolores?</h1>
+    <article id="rgb" class="mb-15 mt-35 ml-20 h-[450px] w-[80rem] rounded-3xl flex flex-row">
+        <div class="w-[200px] h-[400px] m-5 rounded-3xl">
+            <img class="rounded 3xl w-full h-full object-cover shadow-[0_0_3px_white] transition-transform duration-300 ease-out hover:scale-115" src="/src/App/assets/hades-capa.webp" alt="">
+        </div>
+        <div class="w-[200px] h-[400px] m-5 rounded-3xl">
+            <img class="rounded 3xl w-full h-full object-cover shadow-[0_0_3px_white] transition-transform duration-300 ease-out hover:scale-115"src="/src/App/assets/hades-capa.webp" alt="">
+        </div>
+        <div class="w-[200px] h-[400px] m-5 rounded-3xl">
+            <img class="rounded 3xl w-full h-full object-cover shadow-[0_0_3px_white] transition-transform duration-300 ease-out hover:scale-115" src="/src/App/assets/hades-capa.webp" alt="">
+        </div>
     </article>
 </template>
