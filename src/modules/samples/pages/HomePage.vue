@@ -1,13 +1,9 @@
 <script setup lang="js">
-import BroseCategorias from "../../../shared/components/BroseCategorias.vue";
-import Trending from "../../../shared/components/Trending.vue";
+import JogoDestaque from '../../../shared/components/components_Home/JogoDestaque.vue';
 </script>
 
 <template>
-  <article class="flex flex-wrap gap-10 ">
-    <Trending />
-    <div>
-      <BroseCategorias />
-    </div>
+  <article>
+    <JogoDestaque />
   </article>
 </template>

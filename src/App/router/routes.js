@@ -1,6 +1,7 @@
 import AppLayout from "../../shared/layout/AppLayout.vue";
-import Home from "../../modules/samples/pages/HomePage.vue";
 import Perfil from "../../modules/samples/pages/Perfil.vue";
+import CatalogoPage from "../../modules/samples/pages/CatalogoPage.vue";
+import HomePage from "../../modules/samples/pages/HomePage.vue";
 
 export const routes = [
   {
@@ -9,12 +10,16 @@ export const routes = [
     children: [
       {
         path: "",
-        component: Home,
+        component: HomePage,
       },
       {
         path: "perfil",
         component: Perfil,
       },
+      {
+        path:"catalogo",
+        component: CatalogoPage
+      }
     ],
   },
 ];
