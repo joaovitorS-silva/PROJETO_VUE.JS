@@ -12,6 +12,10 @@ defineProps({
     type: Object,
     required: false,
   },
+  img: {
+    type: Image,
+    required: false,
+  },
 });
 </script>
 
@@ -22,10 +26,15 @@ defineProps({
       class="flex bg-buttonPrincipal rounded-md p-3 hover:bg-[#D9FF33] shadow-[0_0_3px_#CCFF00,0_0_15px_#CCFF0080]"
       ><div class="flex gap-2">
         <component v-if="icon" :is="icon" />
+        <img
+          v-if="img"
+          :src="img"
+          alt="Imagem do perfil"
+          class=" w-6 h-6 rounded-full object-cover"
+        />
 
         {{ label }}
       </div>
     </RouterLink>
-
   </div>
 </template>

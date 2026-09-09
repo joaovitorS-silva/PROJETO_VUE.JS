@@ -1,6 +1,12 @@
 <script setup lang="js">
-import { Search, Wallet, Gamepad2 } from "lucide-vue-next";
-
+import {
+  Search,
+  Wallet,
+  Users,
+  MessageSquareText,
+  Bell,
+} from "lucide-vue-next";
+import imgTeste from "/src/App/assets/teste4.webp";
 import Navigation from "./NavigationTop.vue";
 </script>
 
@@ -16,17 +22,23 @@ import Navigation from "./NavigationTop.vue";
       <Search class="absolute left-2 bottom-3 cursor-pointer" size="24px" />
       <input
         type="text"
-        placeholder="SEARCH"
+        placeholder="Buscar jogos,gẽneros,etc..."
         class="bg-fundo-secundario rounded-2xl p-3 pl-9"
       />
     </div>
-    <section class="flex ml-auto gap-12">
+    <section class="flex ml-auto gap-8 text-cards">
       <Navigation :icon="Wallet" label="5,49USD" to="definir rota" />
-      <Navigation label="pessoas" to="a denifir" />
-      <Navigation label="msg" to="/a definmir" />
-      <Navigation label="notificação" to="/A definir" />
-        <Navigation label="Perfil" to="/perfil" />
-      
+      <Navigation :icon="Users" to="a denifir" />
+      <Navigation :icon="MessageSquareText" to="/a definmir" />
+      <Navigation :icon="Bell" to="/A definir" />
+
+      <div class="flex gap-1 text-white">
+        <Navigation to="/perfil" :img="imgTeste" />
+        <div class="flex flex-col">
+          <span class="font-bold text-xl">SHADOW</span>
+          <span>#8378</span>
+        </div>
+      </div>
     </section>
   </div>
 </template>
