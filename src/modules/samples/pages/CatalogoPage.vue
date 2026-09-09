@@ -4,7 +4,7 @@ import Trending from "../../../shared/components/Trending.vue";
 </script>
 
 <template>
-  <article class="flex flex-wrap gap-10 ">
+  <article class="flex flex-wrap gap-10">
     <Trending />
     <div>
       <BroseCategorias />

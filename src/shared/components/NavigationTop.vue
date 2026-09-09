@@ -30,7 +30,7 @@ defineProps({
           v-if="img"
           :src="img"
           alt="Imagem do perfil"
-          class=" w-6 h-6 rounded-full object-cover"
+          class="w-6 h-6 rounded-full object-cover"
         />
 
         {{ label }}
